@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif !important;
+  background-color: #ecf0f1 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Menu link  font size , color  */
+.side-nav-link {
+  font-size: 17px !important;
+  color: rgb(243, 239, 239) !important;
+}
+
+/* Hover effect  */
+.side-nav-link:hover {
+  color: #9bb7e2 !important; /* Blue hover */
+}
+
+/* Menu title  */
+.side-nav-title {
+  font-size: 13px !important;
+  color: #888 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.side-nav-link.active {
+  background-color: #1abc9c !important;
+  color: white !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#leftside-menu {
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+/* Sidebar width  */
+@media screen and (min-width: 992px) {
+  #leftside-menu {
+    width: 80px;
+    transition: width 0.4s ease-in-out;
+  }
+
+  #leftside-menu:hover {
+    width: 250px;
+  }
+}
+
+/* Sidebar container adjust  */
+#leftside-menu-container {
+  width: 100%;
+}
+
+
+
+.button-toggle-menu
+ {
+    border: none;
+    color: #fff;
+
+}
+
+.footer {
+
+    background-color: #00bfff;
+    color: white;
+}
+.footer svg {
+
+    color: white;
+}
+
+
+/* Top NavBar */
+.navbar-custom a:hover {
+  color: #ecc9c9 !important; /* Blue hover */
+}
+.navbar-custom i:hover {
+  color: #ecc9c9  !important; /* Blue hover */
+}
+
+.navbar-custom {
+  background-color: #bd06d3;
+ padding:10px ;
+}
+
+.navbar-custom .topbar-menu .nav-link {
+
+    color: #fff;
+}
+
+/* Notification */
+[data-simplebar] {
+  contain: layout size style;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.container {
+
+}
